@@ -61,7 +61,7 @@ public abstract class MechanumTestBot extends LinearOpMode{
     private boolean turning = false;
     protected double gyroStart;
     protected VuforiaLocalizer vuforia;
-    //call before tou do anything, sets up robo
+    //call before tou do anything, sets up robot
     protected void initializeRobot() {
         int cameraMonitorViewId = hardwareMap.appContext.getResources().getIdentifier("cameraMonitorViewId", "id", hardwareMap.appContext.getPackageName());
         VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters(cameraMonitorViewId);
